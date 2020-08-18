@@ -16,6 +16,7 @@ body{
   border: 1px solid grey;
   padding: 15px;
   background-color: khaki;
+  position: absolute;
 }  
 
 
@@ -35,23 +36,38 @@ h1{
   font-size: 64px;
   font-style: italic;
   margin-bottom: 16px;
+  color: #888;
+}
+.message{
+  color: black;
+  font: bolder;
 }
 
 header a{
   color: #888;
   margin-right: 16px;
   text-decoration: none;
+  border: 0.5px solid grey;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .potrait{
   width: 250px;
 }
 
+form{
+  margin: 10px;
+  position: relative;
+}
 
 input{
   border: 1px solid #ccc;
   padding: 8px;
   border-radius: 2px;
+  width: 100%;
+  margin-right: 8px;
+  margin: auto;
 }
 button{
   border-radius: 2px;

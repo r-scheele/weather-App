@@ -78,13 +78,6 @@ app.get("/product",(req,res)=>{
   })
 })
 
-app.get("/help/*",(req,res)=>{
-  res.render("404",{
-    title: "404 help",
-    name: "Habeeb Olamilekan",
-    errorMessage: "Help article not found. "
-  })
-})
 app.get("*",(req,res)=>{
   res.render("404",{
     title:"404",
